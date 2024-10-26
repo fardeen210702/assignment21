@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+li{
+    /* width: 99px; */
+    
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.4px;
+    color: red;
+
+}
+.btn{
+    border-radius: 38px;
+    border: 1px ;
+    box-shadow: 0 0 10px black;
+    width: 173px;
+    height: 44px;
+
+}
+
+.pSpace{
+    word-spacing: 10px;
+}
+
+.box{
+    transform: rotate(50deg);
+}
